@@ -7,4 +7,5 @@ include:
     shield: nice_view_adapter nice_view
     artifact-name: sofle_left_nice_view
   - board: sofle_right
+    shield: nice_view_adapter nice_view
     artifact-name: sofle_right_nice_view
