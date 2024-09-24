@@ -13,7 +13,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '-', s: _}
+  - {t: '=', h: +, s: +}
   - $$mdi:keyboard-esc$$
   - Q
   - W
@@ -455,3 +455,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [13, 14]
+  k: $$mdi:keyboard-esc$$
