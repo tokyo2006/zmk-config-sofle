@@ -76,12 +76,21 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <13 14>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         Qwery {
             bindings = <
-&as TILDE GRAVE  &kp N1          &kp N2          &kp N3              &kp N4            &kp N5          &kp UP_ARROW     &kp N6        &kp N7             &kp N8               &kp N9                   &kp N0               &kp MINUS
+&as TILDE GRAVE  &kp N1          &kp N2          &kp N3              &kp N4            &kp N5          &kp UP_ARROW     &kp N6        &kp N7             &kp N8               &kp N9                   &kp N0               &as PLUS EQUAL
 &kp ESCAPE       &kp Q           &kp W           &kp E               &kp R             &kp T           &kp DOWN_ARROW   &kp Y         &kp U              &kp I                &kp O                    &kp P                &kp RBKT
 &kp CAPSLOCK     &hm LEFT_GUI A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G           &kp LEFT_ARROW   &kp H         &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L          &as COLON SEMICOLON  &as DOUBLE_QUOTES SQT
 &kp LSHFT        &kp Z           &kp X           &kp C               &kp V             &kp B           &kp RIGHT_ARROW  &kp N         &kp M              &as LESS_THAN COMMA  &as GREATER_THAN PERIOD  &as QUESTION SLASH   &hm RIGHT_GUI ENTER
