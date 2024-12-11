@@ -1,7 +1,7 @@
 file_format: "1"
 id: sofle
 name: Sofle
-url: https://github.com/tokyo2006/zmk-config-sofle
+url: https://github.com/mtoyama/zmk-config-sofle
 type: board
 arch: arm
 features:
